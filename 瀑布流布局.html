@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>瀑布流布局</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /*如掉图片之间的间隙*/
+        img
+        {
+            /*去掉图片之间的缝隙*/
+            vertical-align: top;
+        }
+        #main{
+            position: relative;
+
+        }
+        .box{
+            float: left;
+            padding: 10px 0 0 10px;
+        }
+        .pic{
+            padding: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #ddd;
+            background-color: #fff;
+        }
+        .pic img{
+            width: 150px;
+        }
+        
+    </style>
+</head>
+<body>
+<!--父盒子-->
+<div id="main">
+    <!--大盒子-->
+    <div class="box">
+        <!--小盒子-->
+        <div class="pic">
+            <img src="images/0.jpg" alt="">
+        </div>
+    </div>
+    <!--大盒子-->
+    <div class="box">
+        <!--小盒子-->
+        <div class="pic">
+            <img src="images/1.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/2.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/3.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/4.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/5.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/6.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/7.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/8.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/9.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/10.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/11.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/10.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/11.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/12.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="pic">
+            <img src="images/13.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/14.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/15.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/16.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/17.jpg" alt="">
+        </div>
+    </div>
+    <div class="box">
+        <div class="pic">
+            <img src="images/18.jpg" alt="">
+        </div>
+    </div>
+
+</div>
+<script src="js/underscore-min.js"></script>
+<script src="js/Myfun.js"></script>
+<script src="js/waterfallLayout.js"></script>
+
+<script>
+
+</script>
+
+</body>
+</html>
